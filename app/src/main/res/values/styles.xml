@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Estilos de Fuente para Work Sans -->
+
+    <!-- Título grande en Bold -->
+    <style name="WorkSansBoldLarge">
+        <item name="android:fontFamily">@font/worksans_variablefont_wght</item>
+        <item name="android:textFontWeight">700</item> <!-- Peso Bold -->
+        <item name="android:textSize">@dimen/font_size_bold_30</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!-- Título mediano en Bold con tamaño 25 -->
+    <style name="WorkSansBoldMedium">
+        <item name="android:fontFamily">@font/worksans_variablefont_wght</item>
+        <item name="android:textFontWeight">700</item> <!-- Peso Bold -->
+        <item name="android:textSize">@dimen/font_size_bold_25</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!-- Texto en Medium (500) con tamaño 22 -->
+    <style name="WorkSansMedium22">
+        <item name="android:fontFamily">@font/worksans_variablefont_wght</item>
+        <item name="android:textFontWeight">500</item> <!-- Peso Medium -->
+        <item name="android:textSize">@dimen/font_size_medium_22</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!-- Texto regular (400) con tamaño 20 -->
+    <style name="WorkSansRegular20">
+        <item name="android:fontFamily">@font/worksans_variablefont_wght</item>
+        <item name="android:textFontWeight">400</item> <!-- Peso Regular -->
+        <item name="android:textSize">@dimen/font_size_regular_20</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!-- Texto regular (400) con tamaño 18 -->
+    <style name="WorkSansRegular18">
+        <item name="android:fontFamily">@font/worksans_variablefont_wght</item>
+        <item name="android:textFontWeight">400</item> <!-- Peso Regular -->
+        <item name="android:textSize">@dimen/font_size_regular_18</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!-- Texto en Bold (700) con tamaño 20 -->
+    <style name="WorkSansBold20">
+        <item name="android:fontFamily">@font/worksans_variablefont_wght</item>
+        <item name="android:textFontWeight">700</item> <!-- Peso Bold -->
+        <item name="android:textSize">@dimen/font_size_bold_20</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!-- Texto regular en gris (400) con tamaño 15 -->
+    <style name="WorkSansRegular15Gray">
+        <item name="android:fontFamily">@font/worksans_variablefont_wght</item>
+        <item name="android:textFontWeight">400</item> <!-- Peso Regular -->
+        <item name="android:textSize">@dimen/font_size_regular_15</item>
+        <item name="android:textColor">@color/subtext</item>
+    </style>
+</resources>

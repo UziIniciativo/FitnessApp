@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título del formulario -->
+        <TextView
+            android:id="@+id/formTitle"
+            style="@style/WorkSansBoldMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_formulario_salud" />
+
+        <!-- Descripción del formulario -->
+        <TextView
+            android:id="@+id/formDescription"
+            style="@style/WorkSansRegular15Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_formulario_salud" />
+
+        <!-- Pregunta 1: Frecuencia de ejercicio -->
+        <TextView
+            android:id="@+id/question1"
+            style="@style/WorkSansBold20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frecuencia_ejercicio"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/frequencyRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/frequencyRarely"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frecuencia_raramente" />
+
+            <RadioButton
+                android:id="@+id/frequencyOccasionally"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frecuencia_ocasionalmente" />
+
+            <RadioButton
+                android:id="@+id/frequencyFrequently"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frecuencia_frecuentemente" />
+
+            <RadioButton
+                android:id="@+id/frequencyDaily"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frecuencia_diario" />
+        </RadioGroup>
+
+        <!-- Pregunta 2: Condiciones médicas -->
+        <TextView
+            android:id="@+id/question2"
+            style="@style/WorkSansBold20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/condicion_medica"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            style="@style/WorkSansRegular15Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selecciona_todas_apliquen" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <CheckBox
+                android:id="@+id/conditionHypertension"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/condicion_hipertension" />
+
+            <CheckBox
+                android:id="@+id/conditionDiabetes"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/condicion_diabetes" />
+
+            <CheckBox
+                android:id="@+id/conditionBackProblems"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/condicion_espalda" />
+
+            <CheckBox
+                android:id="@+id/conditionKneeProblems"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/condicion_rodilla" />
+
+            <CheckBox
+                android:id="@+id/conditionNone"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/condicion_ninguna" />
+        </LinearLayout>
+
+        <!-- Pregunta 3: Objetivos de entrenamiento -->
+        <TextView
+            android:id="@+id/question3"
+            style="@style/WorkSansBold20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/objetivos_entrenamiento"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <CheckBox
+                android:id="@+id/objectiveLoseWeight"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/objetivo_perder_peso" />
+
+            <CheckBox
+                android:id="@+id/objectiveGainMuscle"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/objetivo_ganar_musculo" />
+
+            <CheckBox
+                android:id="@+id/objectiveIncreaseStamina"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/objetivo_mejorar_resistencia" />
+
+            <CheckBox
+                android:id="@+id/objectiveFlexibility"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/objetivo_aumentar_flexibilidad" />
+
+            <CheckBox
+                android:id="@+id/objectiveReduceStress"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/objetivo_reducir_estres" />
+        </LinearLayout>
+
+        <!-- Botón de Continuar -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/continueButton"
+            style="@style/WorkSansBold20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/continuar"
+            android:textColor="@color/cream"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+</ScrollView>

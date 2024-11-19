@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FitnessApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Colores primarios -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Fondo y texto -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/subtext</item>
+
+        <!-- Personalización de botones, íconos, etc. -->
+        <item name="android:buttonTint">@color/green</item>
+        <item name="android:colorAccent">@color/yellow</item>
+    </style>
+
+    <style name="Theme.FitnessApp" parent="Base.Theme.FitnessApp" />
+</resources>
