@@ -28,6 +28,92 @@
             android:layout_height="wrap_content"
             android:text="@string/descripcion_formulario_salud" />
 
+        <!-- Nombre del usuario -->
+        <TextView
+            style="@style/WorkSansBold20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/name" />
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/introduce_tu_nombre" />
+
+        <!-- Género -->
+        <TextView
+            style="@style/WorkSansBold20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/gender" />
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/maleRadioButton"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/masculino" />
+            <RadioButton
+                android:id="@+id/femaleRadioButton"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/femenino" />
+            <RadioButton
+                android:id="@+id/nobinarioRadioButton"
+                style="@style/WorkSansRegular18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nobinario" />
+        </RadioGroup>
+
+        <!-- Altura -->
+        <TextView
+            style="@style/WorkSansBold20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/height" />
+        <EditText
+            android:id="@+id/heightEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/introduce_tu_altura"
+            android:inputType="numberDecimal" />
+
+        <!-- Peso -->
+        <TextView
+            style="@style/WorkSansBold20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/weight" />
+        <EditText
+            android:id="@+id/weightEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/introduce_tu_peso"
+            android:inputType="numberDecimal" />
+
+        <!-- Edad -->
+        <TextView
+            style="@style/WorkSansBold20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/age" />
+        <EditText
+            android:id="@+id/ageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/introduce_tu_edad"
+            android:inputType="number" />
+
         <!-- Pregunta 1: Frecuencia de ejercicio -->
         <TextView
             android:id="@+id/question1"

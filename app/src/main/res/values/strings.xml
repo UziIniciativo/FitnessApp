@@ -39,4 +39,23 @@
     <string name="nav_home">Inicio</string>
     <string name="nav_progress">Racha</string>
     <string name="nav_profile">Perfil</string>
+    <string name="name">Nombre</string>
+    <string name="gender">Genero</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="age">Edad</string>
+    <string name="save">Guardar</string>
+    <string name="introduce_tu_nombre">Introduce tu nombre</string>
+    <string name="masculino">masculino\n</string>
+    <string name="femenino">femenino</string>
+    <string name="nobinario">Otro</string>
+    <string name="introduce_tu_altura">introduce tu altura\n</string>
+    <string name="introduce_tu_peso">Introduce tu peso\n</string>
+    <string name="introduce_tu_edad">Introduce tu edad</string>
+    <string name="_01">01</string>
+    <string name="tu_progreso">Tu progreso</string>
+    <string name="racha_actual_0_d_as">Racha actual: 0 días</string>
+    <string name="logout">Cerrar sesión</string>
 </resources>
